@@ -1,0 +1,47 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+body {
+	background-image: url(../img/cosmos.jpg);
+	background-size: 100%;
+	width: 100%;
+}
+
+
+#vaisseau {
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+}
+
+#vaisseau img {
+	height: 100px;
+	width: auto;
+}
+
+.invader {
+	width: 100px;
+	height: auto;
+	
+}
+
+#invaders {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.mabite {
+	width: auto;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+
+}
+
